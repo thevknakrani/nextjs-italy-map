@@ -13,10 +13,10 @@ const Page = () => {
   };
 
   return (
-    <div className="bg-white text-black p-24">
+    <div className="bg-white text-black p-6 md:p-24">
       <h1 className="text-center text-3xl font-bold mb-6">Itlay</h1>
-      <div className="flex">
-        <div className="w-[600px]">
+      <div className="md:flex">
+        <div className="w-[300px] md:w-[600px]">
           <SVGMap
             map={italy}
             onLocationClick={onLocationClick}

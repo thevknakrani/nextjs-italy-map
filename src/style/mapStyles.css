@@ -24,6 +24,7 @@
 .svg-map__location {
   fill: #ed4a3c;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .svg-map__location:focus,
